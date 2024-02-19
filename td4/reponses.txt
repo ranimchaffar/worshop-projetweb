@@ -1,0 +1,12 @@
+Remarque sur l'URL : En utilisant la méthode GET, les données du formulaire sont affichées dans l'URL sous forme de paramètres query-string après le '?'.
+
+Supprimer l'attribut "name" du champ "nom" : Cela empêchera la valeur du champ "nom" d'être envoyée avec le formulaire, donc vous ne verrez pas cette valeur dans les paramètres de l'URL.
+
+Tentative d'ouvrir directement contact.php : Sans les données envoyées depuis le formulaire, vous obtiendrez un message "Aucune donnée reçue."
+
+Ajout de la condition pour vérifier les champs manquants : Cela a été ajouté dans contact.php pour afficher un message approprié si des champs sont manquants.
+
+
+
+
+
