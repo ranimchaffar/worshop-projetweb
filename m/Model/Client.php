@@ -39,19 +39,13 @@ class Client
     }
     
 
-    /**
-     * Get the value of lastName
-     */ 
+    
     public function getLastName()
     {
         return $this->lastName;
     }
 
-    /**
-     * Set the value of lastName
-     *
-     * @return  self
-     */ 
+ 
     public function setLastName($lastName)
     {
         $this->lastName = $lastName;
